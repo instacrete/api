@@ -1,5 +1,3 @@
-const auth = req => {
-  return { success: true }
-}
+const auth = user => user
 
 module.exports = { auth }
