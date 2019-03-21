@@ -1,7 +1,6 @@
 const express = require('express')
 require('dotenv-safe').load()
-
-const jwt = require('jsonwebtoken')
+// const jwt = require('jsonwebtoken')
 
 const app = express()
 const { routes } = require('./src/routes')

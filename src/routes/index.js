@@ -1,4 +1,4 @@
-const { healthcheck } = require('./healthcheck')
+const { healthcheck } = require('../healthcheck')
 const { login } = require('../login')
 
 const routes = app => {

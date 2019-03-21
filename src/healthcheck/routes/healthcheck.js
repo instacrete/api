@@ -1,5 +1,5 @@
 const healthcheck = app => {
-  app.get('/', async (req, res) => {
+  app.get('/healthcheck', async (req, res) => {
     res.json({ alive: true })
   })
 }
